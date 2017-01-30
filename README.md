@@ -12,7 +12,7 @@
 #### Clone Repo
 
 ```terminal
-> git clone https://github.com/alduron/Logging.git
+> git clone https://github.com/alduron/AutoLogger.git
 > Run RunMe.ps1
 
 ```
