@@ -521,8 +521,7 @@ Function Get-LogPath{
             if($LogData){
                 $LogFile = $config.Globals.LogRoot + $LogData
             } else {
-                $LogDefault = $config.Modules | ? Name -match "Default" | Select -Expand LogDefault
-                $LogFile = $config.Globals.LogRoot + $LogDefault + "$Function.Log"
+                $LogFile = $config.Globals.LogRoot + $config.Globals.ModuleLogRoot + "$Function.Log"
             }
 
         #Check if the calling function is actually part of a script
