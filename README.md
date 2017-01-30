@@ -19,8 +19,8 @@
 
 #### Download Repo
 
-* Download [the zip](https://github.com/alduron/Logging/archive/master.zip)
-* Unzip the content of "Logging-master" to any folder
+* Download [the zip](https://github.com/alduron/AutoLogger/archive/master.zip)
+* Unzip the content of Logger to any folder
 * Run RunMe.ps1 and follow prompts
 
 ## TL;DR - The module
