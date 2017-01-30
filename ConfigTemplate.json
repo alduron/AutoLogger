@@ -1,0 +1,38 @@
+{
+	"Globals": {
+		"LogRoot": "\\\\UNC\\Path\\To\\Logs\\",
+		"ModuleRoot": "\\\\UNC\\Path\\To\\Modules\\",
+		"ScriptRoot": "\\\\UNC\\Path\\To\\Scripts\\",
+		"ScriptLogRoot": "Scripts\\",
+		"ModuleLogRoot": "Modules\\",
+		"Email": {
+			"EmailTo": "emailaddress@companyname.com",
+			"EmailCC": "emailaddress@companyname.com",
+			"SMTP": "smtpname.companyname.com",
+			"SendAs": "sendas@companyname.com"
+		}
+	},
+	"Modules": [
+		{
+			"Name": "OPSLogging",
+			"Location": "OPSLogging\\OPSLogging.psm1",
+			"LogDefault": "Logging\\",
+			"Functions": [
+				{
+					"Name": "Example-Function",
+					"Log": "RedirectFolderName\\RedirectFileName.log"
+				}
+			]
+		}
+	],
+	"Scripts": [
+			{
+				"Name": "Example-Function",
+				"Log": "RedirectFolderName\\RedirectFileName.log"
+			},
+			{
+				"Name": "ExampleScriptName",
+				"Log": "RedirectFolderName\\RedirectFileName.log"
+			}
+	]
+}
