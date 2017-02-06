@@ -29,7 +29,7 @@
 New-LogEntry "Message to be logged" -JobType "Test" -Console
 Add-ToLog "Message to be logged" -Type ERR -ErrorMessage $_.Exception.Message -Console
 Close-LogEntry -Result "Failure" -Console -SendEmail
-Get-LogEntry -LogFile <Name of log files auto populated> -Type ERR -Contains "Word or phrase" - Exclude "Word of phrase"
+Get-LogEntry -LogFile <Name of log files auto populated> -Type ERR -Contains "Word or phrase" - Exclude "Word or phrase"
 
 ```
 
