@@ -537,6 +537,8 @@ Function Get-LogPath{
             } else {
                 $LogFile = $config.Globals.LogRoot + $config.Globals.ScriptLogRoot + "$Name.log"
             }
+        } else {
+            $LogFile = $config.Globals.LogRoot + $config.Globals.ScriptLogRoot + "ConsoleJobs.log"
         }
     }
     END{
